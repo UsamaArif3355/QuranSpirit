@@ -67,7 +67,7 @@ class _MainPageState extends State<MainPage>
                           curve: Curves.easeInOut);
                     },
                     child: Text(
-                      "eQuran",
+                      "QuranSpirit",
                       style: Theme.of(context)
                           .textTheme
                           .headlineMedium
@@ -83,7 +83,7 @@ class _MainPageState extends State<MainPage>
                     height: 10,
                   ),
                   Text(
-                    "eQuran",
+                    "QuranSpirit",
                     style: Theme.of(context).textTheme.headlineLarge?.copyWith(
                         color: Theme.of(context).colorScheme.onPrimaryContainer,
                         fontWeight: FontWeight.bold),

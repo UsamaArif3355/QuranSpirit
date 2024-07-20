@@ -58,7 +58,7 @@ class MyApp extends StatelessWidget {
   }
 
   static MaterialColor _getPrimaryColor() {
-    final colorIndex = SettingsDB().get("color");
-    return colorIndex != null ? Colors.primaries[colorIndex] : Colors.cyan;
+
+    return  Colors.primaries[8] ;
   }
 }

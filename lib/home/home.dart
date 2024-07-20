@@ -23,7 +23,7 @@ class _HomePageState extends State<HomePage> {
   int _selectedIndex = 0;
   final List<Destinations> _pageDestinations = <Destinations>[
     const Destinations(
-        "eQuran", Icon(Icons.book_outlined), Icon(Icons.book), MainPage()),
+        "QuranSpirit", Icon(Icons.book_outlined), Icon(Icons.book), MainPage()),
     const Destinations("Settings", Icon(Icons.settings_outlined),
         Icon(Icons.settings), SettingsPage()),
   ];
